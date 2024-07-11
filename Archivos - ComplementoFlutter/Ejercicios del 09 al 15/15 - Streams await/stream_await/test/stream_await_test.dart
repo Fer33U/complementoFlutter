@@ -1,0 +1,8 @@
+import 'package:stream_await/stream_await.dart';
+import 'package:test/test.dart';
+
+void main() {
+  test('calculate', () {
+    expect(calculate(), 42);
+  });
+}
